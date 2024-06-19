@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get openAPI</title>
+    <link rel="stylesheet" href="./styls.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/2506989861.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="menu-img">
+                    <path d="M4 11h12v2H4zm0-5h16v2H4zm0 12h7.235v-2H4z"></path>
+                </svg>
+            </a>
+            <h3>Get API with different methods</h3>
+        </nav>
+    </header>
+    <div class="main-block use-axios">
+        <p>Axios</p>
+        <div class="animate__animated animate__bounce search">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <input type="text" class="default-input">
+        </div>
+    </div>
+    <div class="main-block use-fetch">
+        <p>FetchAPI</p>
+        <div class="animate__animated animate__bounce search">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <input type="text" class="default-input">
+        </div>
+    </div>
+    <div class="main-block use-async">
+        <p>Async</p>
+        <div class="animate__animated animate__bounce search">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <input type="text" class="default-input">
+        </div>
+    </div>
+    <div class="result-block"></div>
+
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
